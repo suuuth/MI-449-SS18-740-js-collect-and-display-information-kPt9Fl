@@ -1,0 +1,141 @@
+/*colors at https://coolors.co/202a25-b80c09-0b4f6c-ecf1f6-333333*/
+
+body {
+  background: #333;
+  color: #ecf1f6;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 36px;
+}
+
+.small {
+  font-size: 18px;
+}
+
+main>p {
+  font-size: 24px;
+}
+
+article {
+  margin-top: 50px;
+  border-top: 2px solid #ecf1f6;
+}
+
+section.drumkit {
+  height: 500px;
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.drumkit div {
+  display: inline-block;
+  background-color: #ecf1f6;
+  width: 20%;
+  cursor: pointer;
+}
+
+#hat {
+  position: absolute;
+  bottom: 280px;
+  left: 100px;
+  border-radius: 100%;
+}
+
+.hatstand {
+  width: 5px!important;
+  height: 320px;
+  padding-top: 50px;
+  position: absolute;
+  bottom: 0px;
+  left: 195px;
+}
+
+#snare {
+  width: 175px!important;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 150px;
+  left: 230px;
+}
+
+#crash1 {
+  height: 100px;
+  border-radius: 100%;
+  transform: rotate(3deg);
+  position: absolute;
+  top: 75px;
+  left: 280px;
+}
+
+#lefttom {
+  width: 90px!important;
+  height: 80px;
+  border-radius: 100%;
+  position: absolute;
+  top: 195px;
+  left: 400px;
+}
+
+#kick {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto 0;
+  width: 250px!important;
+  height: 225px;
+  border-radius: 50%;
+}
+
+#righttom {
+  width: 110px!important;
+  height: 90px;
+  border-radius: 100%;
+  position: absolute;
+  top: 200px;
+  right: 360px;
+}
+
+#crash2 {
+  height: 120px;
+  border-radius: 100%;
+  transform: rotate(-7deg);
+  position: absolute;
+  top: 75px;
+  right: 275px;
+}
+
+#floortom {
+  position: absolute;
+  right: 210px;
+  bottom: 160px;
+  border-radius: 100%;
+  transform: rotate(-5deg);
+}
+
+#ride {
+  height: 115px;
+  border-radius: 100%;
+  transform: rotate(-7deg);
+  position: absolute;
+  top: 175px;
+  right: 125px;
+}
+
+section.input {
+  width: 400px;
+  display: inline-block;
+  padding: 20px;
+  vertical-align: top;
+  text-align: left;
+}
+
+section.border-top {
+  border-top: 1px dotted #ecf1f6;
+}
+
+pre > code {
+  white-space: pre-wrap;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>JS practice page</title>
+</head>
+
+<body>
+  <header>
+    <h1>Javascript/Jquery Testpage!</h1>
+  </header>
+  <main>
+    <article>
+      <h2>js-intro 
+        <br><span class="small"><i>MSU MI-449 2/2018</i></span>
+      </h2>
+      <p>Project: Build a virtual drum kit (or sound mixer)</p>
+      <section class="drumkit">
+        <div id="hat">hat</div>
+        <div class="hatstand">hs</div>
+        <div id="snare">s</div>
+        <div id="crash1">c1</div>
+        <div id="lefttom">lt</div>
+        <div id="kick">k</div>
+        <div id="righttom">rt</div>
+        <div id="crash2">c2</div>
+        <div id="floortom">ft</div>
+        <div id="ride">r</div>
+        <audio src="Assets/hihat.wav" id="hihat_Audio"></audio>
+        <audio src="Assets/snare.wav" id="snare_Audio"></audio>
+        <audio src="Assets/kick.wav" id="kick_Audio"></audio>
+        <audio src="Assets/ride.wav" id="ride_Audio"></audio>
+        <audio src="Assets/boom.wav" id="fTom_Audio"></audio>
+        <audio src="Assets/openhat.wav" id="openhat_Audio"></audio>
+        <audio src="Assets/tink.wav" id="tink_Audio"></audio>
+        <audio src="Assets/clap.wav" id="clap_Audio"></audio>
+        <audio src="Assets/tom.wav" id="tom_Audio"></audio>
+      </section>
+    </article>
+    <article id="js-collect-display">
+      <h1>Dating profile generator</h1>
+      <p class="tagline">
+        Create your own dating profile, that you fully own! Simply enter your personal information below and the HTML for your profile will start writing itself automatically.
+      </p>
+      <section class="input">
+        <h3>Personal</h3>
+        <p>
+          <label>First name</label>
+          <input type="text" class="u-full-width">
+        </p>
+        <p>
+          <label>Last name</label>
+          <input type="text" class="u-full-width">
+        </p>
+        <p>
+          <label>Briefly describe yourself</label>
+          <textarea class="u-full-width"></textarea>
+        </p>
+      </section>
+      <section class="input">
+        <h3>Contact</h3>
+        <p>
+          <label>Email</label>
+          <input type="email" class="u-full-width">
+        </p>
+        <p>
+          <label>Phone</label>
+          <input type="tel" class="u-full-width">
+        </p>
+      </section>
+      <section class="border-top">
+        <h3>Preview</h3>
+        <div>
+          THIS IS WHERE THE HTML PREVIEW SHOULD APPEAR
+        </div>
+      </section>
+      <section>
+        <h3>Generated HTML</h3>
+        <pre><code>
+          THIS IS WHERE THE RAW HTML SHOULD APPEAR
+        </code></pre>
+      </section>
+    </article>
+  </main>
+  <footer>
+    <h6>K. Sutherland</h6>
+  </footer>
+  <script type="text/javascript" src="js-intro.js"></script>
+
+</body>
+</html>
