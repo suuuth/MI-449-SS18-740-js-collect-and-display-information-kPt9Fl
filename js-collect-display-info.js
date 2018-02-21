@@ -6,4 +6,4 @@
           <a href="mailto:EMAIL_ADDRESS" target="_blank">EMAIL_ADDRESS</a>
           or give me a call at
           <a href="tel:PHONE_NUMBER" target="_blank">PHONE_NUMBER</a>.
-        </p>
+        </p>*/
