@@ -47,46 +47,48 @@
         <h3>Personal</h3>
         <p>
           <label>First name</label>
-          <input type="text" class="u-full-width">
+          <input type="text" id="firstName">
         </p>
         <p>
           <label>Last name</label>
-          <input type="text" class="u-full-width">
+          <input type="text" id="lastName">
         </p>
         <p>
           <label>Briefly describe yourself</label>
-          <textarea class="u-full-width"></textarea>
+          <textarea id="descrip"></textarea>
         </p>
       </section>
       <section class="input">
         <h3>Contact</h3>
         <p>
           <label>Email</label>
-          <input type="email" class="u-full-width">
+          <input type="email" id="email">
         </p>
         <p>
           <label>Phone</label>
-          <input type="tel" class="u-full-width">
+          <input type="tel" id="tel">
         </p>
       </section>
-      <section class="border-top">
-        <h3>Preview</h3>
-        <div>
+      <section class="output">
+        <h3>Preview:</h3>
+        <div id="result">
           THIS IS WHERE THE HTML PREVIEW SHOULD APPEAR
         </div>
       </section>
-      <section>
-        <h3>Generated HTML</h3>
-        <pre><code>
+      <section class="output">
+        <h3>Generated HTML:</h3>
+        <pre>&ltcode id="code-result"&gt;
           THIS IS WHERE THE RAW HTML SHOULD APPEAR
-        </code></pre>
+        &lt/code&gt;</pre>
       </section>
     </article>
   </main>
   <footer>
     <h6>K. Sutherland</h6>
   </footer>
+
   <script type="text/javascript" src="js-intro.js"></script>
+  <script type="text/javascript" src="js-collect-display-info.js"></script>
 
 </body>
 </html>

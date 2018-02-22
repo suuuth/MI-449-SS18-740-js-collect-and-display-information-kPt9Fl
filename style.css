@@ -6,6 +6,7 @@ body {
   text-align: center;
   box-sizing: border-box;
   font-size: 36px;
+  margin: 0;
 }
 
 .small {
@@ -132,10 +133,37 @@ section.input {
   text-align: left;
 }
 
-section.border-top {
-  border-top: 1px dotted #ecf1f6;
+section.output {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: justify;
+  padding: 20px;
+}
+
+.output h3 {
+  text-align: center;
+}
+
+.output a {
+  color : #b80c09;
+}
+
+pre {
+  overflow: auto;
 }
 
 pre > code {
   white-space: pre-wrap;
+  color: #ecf1f6;
+  font-size: 18px;
+}
+
+footer {
+  background: #0b4f6c;
+}
+
+footer h6 {
+  padding: 100px 0;
+  margin: 0 auto;
 }
