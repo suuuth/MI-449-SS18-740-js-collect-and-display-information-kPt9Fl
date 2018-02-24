@@ -7,7 +7,6 @@ var telInput = document.getElementById('tel')
 var textOutput = document.getElementById('result')
 var codeOutput = document.getElementById('code-result')
 
-
 var updateProfile = function () {
   var firstName = firstNameInput.value
   var lastName = lastNameInput.value
